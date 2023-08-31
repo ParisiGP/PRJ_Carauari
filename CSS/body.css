@@ -1,0 +1,35 @@
+body {
+    background-color: #EFDDD2;
+}
+
+/* Estilo para a barra de rolagem */
+body::-webkit-scrollbar {
+    width: 0px;
+    /* Largura da barra de rolagem */
+}
+
+/* Estilo para o indicador da barra de rolagem */
+body::-webkit-scrollbar-thumb {
+    background-color: #612505;
+    /* Cor do indicador da barra de rolagem */
+    border-radius: 5px;
+    /* Borda arredondada para o indicador */
+}
+
+/* Estilo para o fundo da barra de rolagem */
+body::-webkit-scrollbar-track {
+    background-color: transparent;
+    /* Cor de fundo da barra de rolagem */
+}
+
+.visible {
+    display: flex;
+}
+
+.visibleCarte {
+    display: block;
+}
+
+.invisible {
+    display: none;
+}

@@ -1,0 +1,23 @@
+.Header {
+    background-color: #421902;
+    background-image: url(../IMG/Madeira.png);
+    background-blend-mode: overlay;
+    display: flex;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+
+}
+
+
+.divHeader{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+
+.Header-Img {
+    height: 100%;
+   border-top-left-radius: 15px;
+}

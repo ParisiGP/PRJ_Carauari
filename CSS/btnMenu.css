@@ -1,0 +1,16 @@
+.btnMenu{
+    display: block;
+    background-image: url(../IMG/Menu.svg);
+    background-repeat: no-repeat;
+    text-indent :-9999px;
+    padding: 25px;
+    background-position: 15px center;
+}
+
+
+.btnMenu_Close{
+    background-color: #E3651B;
+    height: 70px;
+    cursor: pointer;
+}
+

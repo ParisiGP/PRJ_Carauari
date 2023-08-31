@@ -1,0 +1,179 @@
+.Cart {
+    margin-top: 69px;
+}
+
+.CarteNav{
+    width: 100%;
+    height: 45px;
+    overflow-x: scroll;
+}
+.CarteNav::-webkit-scrollbar {
+    height: 0px; /* Largura da barra de rolagem */
+  }
+.CarteTab {
+    height: 85vh;
+    overflow-y: scroll;
+}
+
+.Cartecollumn {
+    padding: 0 2.5px;
+}
+
+.CarteItem {
+    margin-bottom: 5px;
+    height: 200px;
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 10px 5px 10px 1px rgba(0, 0, 0, 0.236);
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.CarteItem:hover {
+    background-color: rgba(0, 0, 0, 0.092);
+}
+
+.CarteitemImage {
+    height: 50%;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.CarteInformations {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.CarteItemDescription {
+    font-family: 'Sanchez', serif;
+    height: 100px;
+    overflow: scroll;
+    font-size: 20px;
+    text-align: justify;
+    width: 90%;
+    padding: 10px;
+    font-weight: bold;
+    color: #612505;
+}
+
+.CarteItemPrice {
+    font-size: 25px;
+    font-family: 'Sanchez', serif;
+    font-weight: bold;
+    color: #612505;
+    align-self: flex-end;
+}
+
+.CarteItemName {
+    font-size: 25px;
+    font-family: 'Sanchez', serif;
+    font-weight: bold;
+    color: #612505;
+}
+
+/* CardOpen */
+
+.PopUpBackground{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.divImage{
+    display: flex;
+    align-items: center;
+    height: 40%;
+    margin: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    .divImage {
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 400px) {
+    .divImage {
+        height: 30%;
+    }
+}
+
+.CarteItemOpen {
+    position: fixed;
+    cursor: default;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    max-width: 685px;
+    height: 80%;
+    padding: 10px;
+    box-shadow: 10px 5px 10px 1px rgba(0, 0, 0, 0.236);
+    transform: translate(-50%, -50%); 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.CarteitemImageOpen {
+    height: 100%;
+    margin-top: 10px;
+    border-radius: 15px;
+    margin:10px;
+}
+
+.CarteInformationsOpen {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.CarteItemDescriptionOpen {
+    height: 100px;
+    overflow: scroll;
+    font-size: 19px;
+    font-family: 'Sanchez', serif;
+    font-weight: bold;
+    color: #612505;
+}
+
+.CarteItemPriceOpen {
+    font-size: 30px;
+    font-weight: bold;
+    align-self: flex-end;
+    font-family: 'Sanchez', serif;
+    color: #612505;
+}
+.CarteItemNameOpenConteiner{
+    display: flex;
+    justify-content: space-between;
+ 
+}
+
+.CarteItemNameOpen {
+    font-size: 30px;
+    font-weight: bold;
+    display: inline;
+    font-family: 'Sanchez', serif;
+    color: #612505;
+}
+
+.btnCarteOpen {
+    border-radius: 500px;
+    height: 35px;
+   margin-bottom: 5px;
+}

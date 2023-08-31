@@ -1,0 +1,65 @@
+.AboutUs {
+    margin-top: 70px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+.AboutUs h2{
+    font-family: 'Fredericka the Great', cursive;
+    color: #612505;
+    font-size: 35px;
+    font-weight: 400;
+   
+}
+
+.AboutUs p{
+    font-family: 'Sanchez', serif;
+    font-size: 20px;
+    text-align: justify;
+    padding: 20px;
+    color: #612505;
+    max-width: 1098px;
+    justify-content: center;
+    margin: 0px;
+}
+
+.AboutHeader{
+    margin-top: 20px;
+    text-align: center;
+}
+.AboutDivImage{
+    display: flex;
+    justify-content: center;
+    max-width: 750px;
+}
+
+.AboutImage{
+    width:70%;
+   
+}
+
+.AboutSocialNetworks{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+.AboutInstagram{
+    margin-right: 30px;
+}
+
+.AboutIfood{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.AboutAdress{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #612505;
+    font-weight: bold;
+}
